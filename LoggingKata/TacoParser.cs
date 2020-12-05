@@ -49,7 +49,7 @@ namespace LoggingKata
             point.Latitude = dublatitude;
             point.Longitude = dublongitude;
             _tacoBell.Location = point;
-            // _tacoBell.Name = locationName;
+            _tacoBell.Name = locationName;
 
             return _tacoBell;
            
